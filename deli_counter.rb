@@ -16,8 +16,8 @@ end
 
 def now_serving(deli)
   if deli == []
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   else
-    puts "#{deli.pop} is served."
+    puts "Currently serving #{deli.shift}."
   end
 end
