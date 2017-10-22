@@ -6,5 +6,5 @@ def line(deli)
     announce = "The line is currently:"
     deli.each {|person| annouce.append(" #{deli.find_index(person)}. #{person}")}
   end
-  announce
+  puts announce
 end
