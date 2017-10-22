@@ -13,3 +13,11 @@ def take_a_number(deli, name)
   deli.push(name)
   puts "Welcome, #{name}. You are number #{deli.find_index(name) + 1} in line."
 end
+
+def now_serving(deli)
+  if deli == []
+    puts "The line is currently empty."
+  else
+    puts "#{deli.pop} is served."
+  end
+end
