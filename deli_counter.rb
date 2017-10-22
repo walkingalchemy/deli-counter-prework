@@ -1,8 +1,9 @@
 # Write your code here.
 def line(deli)
   if deli = []
-    puts "The line is empty."
+    puts "The line is currently empty."
   else
-    puts deli
+    announce = "The line is currently:"
+    deli.each {|person| annouce.append(" #{deli.find_index(person)}. #{person}")}
   end
 end
