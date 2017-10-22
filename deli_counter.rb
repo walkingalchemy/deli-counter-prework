@@ -4,7 +4,7 @@ def line(deli)
     announce = "The line is currently empty."
   else
     announce = "The line is currently:"
-    deli.each {|person| annouce.append(" #{deli.find_index(person)}. #{person}")}
+    deli.each {|person| announce.append(" #{deli.find_index(person)}. #{person}")}
   end
   puts announce
 end
