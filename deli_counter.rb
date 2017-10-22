@@ -8,3 +8,7 @@ def line(deli)
   end
   puts announce
 end
+
+def take_a_number(deli, name)
+  deli.push(name)
+end
